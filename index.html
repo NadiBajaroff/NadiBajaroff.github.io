@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/login.css">
+  <title>ToDo</title>
+</head>
+<body>
+  <main>
+  <form id="registro">
+    <h1>Registrarse</h1>
+
+    <div class="image"></div>
+
+    <label>
+      Nombre:
+      <input type="text" id="reg-nombre">
+    </label>
+    <label>
+      Apellido:
+      <input type="text" id="reg-apellido">
+    </label>
+    <label>
+      Contraseña:
+      <input type="password" id="reg-contrasenia">
+    </label>
+    <label>
+      Repetir contraseña:
+      <input type="password" id="reg-re-contrasenia">
+    </label>
+    <label>
+      Email:
+      <input type="text" id="reg-email">
+    </label>
+
+    <button id="crear-cuenta">Crear Cuenta</button>
+
+    <div class="form-footer">
+      <p>ToDo</p>
+    </div>
+  </form>
+
+
+  <form id="ingreso">
+    <h1>Ingresar</h1>
+
+    <div class="image"></div>
+
+    <label>
+      Email:
+      <input type="text" id="ing-email">
+    </label>
+    <label>
+      Contraseña:
+      <input type="password" id="ing-contrasenia">
+    </label>
+
+    <button id="login">Ingresar</button>
+
+    <div class="form-footer">
+      <p>ToDo</p>
+    </div>
+  </form>
+  </main>
+  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="scripts/index.js"></script>
+</body>
+</html>
